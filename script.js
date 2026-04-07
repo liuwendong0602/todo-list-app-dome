@@ -4,7 +4,7 @@ let list = document.getElementById("list");
 
 // 添加任务
 addBtn.onclick = function() {
-  let value = inputEl.value;
+  let value = inputEl.value.trim();
 
   // 防止空输入
   if (value === "") return;
